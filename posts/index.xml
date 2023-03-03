@@ -2,18 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Siwei Cheng</title>
-    <link>http://localhost:1313/siweicheng.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Siwei Cheng</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright> </copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/siweicheng.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[2021 Science Advances] Life Cycle Returns to College</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/chengetal2021/</link>
+      <link>http://localhost:1313/posts/chengetal2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/chengetal2021/</guid>
+      <guid>http://localhost:1313/posts/chengetal2021/</guid>
       <description>Article &amp;ldquo;Heterogeneous Returns to College over the Life Course&amp;rdquo; Siwei Cheng, Jennie Brand, Xiang Zhou, Yu Xie, &amp;amp; Michael Hout Science Advances 2021.
 Links Article Replication file
 Abstract College graduates earn higher wages than high school graduates by age 30. Among women, the advantages of a college degree decline somewhat as they age, although they are still substantial at age 50; for men, the advantage of a college degree grows throughout the life cycle.</description>
@@ -21,10 +20,10 @@ Abstract College graduates earn higher wages than high school graduates by age 3
     
     <item>
       <title>[2021 Social Forces] Shifting Life Course of Wage Inequality</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/cheng2021/</link>
+      <link>http://localhost:1313/posts/cheng2021/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/cheng2021/</guid>
+      <guid>http://localhost:1313/posts/cheng2021/</guid>
       <description>Article &amp;ldquo;The Shifting Life Course Patterns of Wage Inequality&amp;rdquo; Siwei Cheng Social Forces 2021.
 Links Article
 Abstract Prior inequality literature has mainly focused on the period trends of inequality. This paper advances this literature by adopting a cohort approach to examine the age and cohort patterns of wage inequality. Employing a trajectory-based analytic framework to analyze almost 50 years of longitudinal data from the Panel Study of Income Dynamics, I found that the life course patterns of inequality among American men have shifted across cohorts on both aggregate level and microlevel.</description>
@@ -32,10 +31,10 @@ Abstract Prior inequality literature has mainly focused on the period trends of 
     
     <item>
       <title>[2020 American Journal of Sociology] Flows and Boundaries.</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/chengpark2020/</link>
+      <link>http://localhost:1313/posts/chengpark2020/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/chengpark2020/</guid>
+      <guid>http://localhost:1313/posts/chengpark2020/</guid>
       <description>Article &amp;ldquo;Flows and Boundaries: A Network Approach to Studying Occupational Mobility in the Labor Market.&amp;rdquo; Siwei Cheng &amp;amp; Barum Park (equal authorship). American Journal of Sociology 2020.
 Links Article Replication file
 Abstract Although stratification research has long recognized the importance of mapping out the underlying boundaries that govern the flow of workers in the labor market, the current literature faces two major challenges: (1) the determination of mobility boundaries and (2) the incorporation of changes in mobility boundaries.</description>
@@ -43,10 +42,10 @@ Abstract Although stratification research has long recognized the importance of 
     
     <item>
       <title>[2020 Social Forces] Precarious Childhoods</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/chengetal2020/</link>
+      <link>http://localhost:1313/posts/chengetal2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/chengetal2020/</guid>
+      <guid>http://localhost:1313/posts/chengetal2020/</guid>
       <description>Article &amp;ldquo;Precarious Childhoods: Childhood Family Income Volatility and Mental Health in Early Adulthood.&amp;rdquo; Siwei Cheng, Bo Burström, Charlotte Björkenstam, Kyriaki Kosidou, Anne Pebley &amp;amp; Emma Björkenstam. Social Forces 2020.
 Links Article
 Abstract The rise of income volatility in western countries has been extensively documented in the literature, but empirical research has just started to examine how childhood exposure to family income volatility affects subsequent wellbeing. This study takes advantage of several nation-wide, population registers from Sweden with linkages within and across generations to examine the intergenerational impact of childhood family income volatility on psychiatric disorders in early adulthood.</description>
@@ -54,10 +53,10 @@ Abstract The rise of income volatility in western countries has been extensively
     
     <item>
       <title>[2020 Sociological Methods &amp; Research] How to Borrow Information from Unlinked Data?</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/cheng2020/</link>
+      <link>http://localhost:1313/posts/cheng2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/cheng2020/</guid>
+      <guid>http://localhost:1313/posts/cheng2020/</guid>
       <description>Article &amp;ldquo;How to Borrow Information from Unlinked Data? A Relative Density Approach for Predicting Unobserved Distributions.&amp;rdquo; Siwei Cheng Sociological Methods &amp;amp; Research 2020
 Links Article
 Abstract One of the most important developments in the current era of social sciences is the growing availability and diversity of data, big and small. Social scientists increasingly combine information from multiple data sets in their research. While conducting statistical analyses with linked data is relatively straightforward, borrowing information across unlinked data can be much more challenging due to the absence of unit-to-unit linkages.</description>
@@ -65,10 +64,10 @@ Abstract One of the most important developments in the current era of social sci
     
     <item>
       <title>[2019 American Sociological Review] Linked Lives, Linked Trajectories.</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/chengsong2019/</link>
+      <link>http://localhost:1313/posts/chengsong2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/chengsong2019/</guid>
+      <guid>http://localhost:1313/posts/chengsong2019/</guid>
       <description>Article &amp;ldquo;Linked Lives, Linked Trajectories: Intergenerational Association of Intragenerational Earnings Mobility.&amp;rdquo; Siwei Cheng &amp;amp; Xi Song (equal authorship). American Sociological Review 2019.
 Links Article
 Abstract Most intergenerational mobility studies rely on either snapshot or time-averaged measures of earnings, but have yet to examine resemblance of earnings trajectories over the life course of successive generations. We propose a linked trajectory mobility approach that decomposes the progression of economic status over two generations into associations in four life-cycle dimensions: initial position, growth rate, growth deceleration, and volatility.</description>
@@ -76,10 +75,10 @@ Abstract Most intergenerational mobility studies rely on either snapshot or time
     
     <item>
       <title>[2019 Biodemography&amp;Social Biology] Cohort Forces and Mortality Patterns</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/zhengcheng2019/</link>
+      <link>http://localhost:1313/posts/zhengcheng2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/zhengcheng2019/</guid>
+      <guid>http://localhost:1313/posts/zhengcheng2019/</guid>
       <description>Article &amp;ldquo;A Simulation Study of the Role of Cohort Forces in Mortality Patterns.&amp;rdquo; Hui Zheng &amp;amp; Siwei Cheng Biodemography and Social Biology 2019.
 Links Article
 Abstract This study uses the micro-simulation method to investigate the role of cohort forces in age-dependent mortality pattern. We test the micro mechanisms for cohort evolution and mortality selection, and how these two biological and demographic forces may interact with epidemiologic transition to shape the cohort age-dependence of mortality pattern in both early- and later-transition countries.</description>
@@ -87,10 +86,10 @@ Abstract This study uses the micro-simulation method to investigate the role of 
     
     <item>
       <title>[2019 Demography] Racial Inequality in Administrative Data</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/chengetal2019/</link>
+      <link>http://localhost:1313/posts/chengetal2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/chengetal2019/</guid>
+      <guid>http://localhost:1313/posts/chengetal2019/</guid>
       <description>Article &amp;ldquo;Educational Variations in the Cohort Trends in the Black-White Earnings Gap among Men: Evidence from Administrative Earnings Data.&amp;rdquo; Siwei Cheng, Christopher R. Tamborini, ChangHwan Kim &amp;amp; Arthur Sakamoto. Demography 2019
 Links Article
 Abstract One of the most important developments in the current era of social sciences is the growing availability and diversity of data, big and small. Social scientists increasingly combine information from multiple data sets in their research. While conducting statistical analyses with linked data is relatively straightforward, borrowing information across unlinked data can be much more challenging due to the absence of unit-to-unit linkages.</description>
@@ -98,10 +97,10 @@ Abstract One of the most important developments in the current era of social sci
     
     <item>
       <title>[2019 PNAS] Perceptions of Income Mobility.</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/chengwen2019/</link>
+      <link>http://localhost:1313/posts/chengwen2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/chengwen2019/</guid>
+      <guid>http://localhost:1313/posts/chengwen2019/</guid>
       <description>Article &amp;ldquo;Americans Overestimate the Intergenerational Persistence in Income Ranks.&amp;rdquo; Siwei Cheng &amp;amp; Fangqi Wen Proceedings of the National Academy of Sciences 2019.
 Links Article
 Abstract Recent research suggests that intergenerational income mobility has remained low and stable in America, but popular discourse routinely assumes that Americans are optimistic about mobility prospects in society. Examining these 2 seemingly contradictory observations requires a careful measurement of the public’s perceptions of mobility. Unlike most previous work that measures perceptions about mobility outcomes for the overall population or certain subgroups, we propose a survey instrument that emphasizes the variation in perceived mobility prospects for hypothetical children across parent income ranks.</description>
@@ -109,10 +108,10 @@ Abstract Recent research suggests that intergenerational income mobility has rem
     
     <item>
       <title>[2019 Sociological Science] The Rise of Programming.</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/chengchauhanchitala2019/</link>
+      <link>http://localhost:1313/posts/chengchauhanchitala2019/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/chengchauhanchitala2019/</guid>
+      <guid>http://localhost:1313/posts/chengchauhanchitala2019/</guid>
       <description>Article &amp;ldquo;The Rise of Programming and the Stalled Gender Revolution.&amp;rdquo; Siwei Cheng, Bhumika Chauhan, and Swati Chintala Sociological Science 2019.
 Links Article
 Abstract Despite remarkable progress toward gender equality over the past half-century, the stalled convergence in the gender wage gap after the mid-1990s remains a puzzle. This study provides new insights into this puzzle by conducting the first large-scale investigation of the uneven impact of the rise of programming in the labor market for men and women since the mid-1990s.</description>
@@ -120,10 +119,10 @@ Abstract Despite remarkable progress toward gender equality over the past half-c
     
     <item>
       <title>[2017 JECH] Income Trajectories and Psychiatric Disorder</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/bjorkenstam2017/</link>
+      <link>http://localhost:1313/posts/bjorkenstam2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/bjorkenstam2017/</guid>
+      <guid>http://localhost:1313/posts/bjorkenstam2017/</guid>
       <description>Article &amp;ldquo;Association between Income Trajectories in Childhood and Psychiatric Disorder - a Swedish Population-based Study.&amp;rdquo; Emma Björkenstam, Siwei Cheng, Bo Burström, Anne Pebley, Charlotte Björkenstam, &amp;amp; Kyriaki Kosidou. Journal of Epidemiology &amp;amp; Community Health 2017.
 Links Article
 Abstract Background: Childhood family income variation is an understudied aspect of households&amp;rsquo; economic context that may have distinct consequences for children. We identified trajectories of childhood family income over a 12-year period, and examined associations between these trajectories and later psychiatric disorders, among individuals born in Sweden between 1987 and 1991 (n=534294).</description>
@@ -131,10 +130,10 @@ Abstract Background: Childhood family income variation is an understudied aspect
     
     <item>
       <title>[2016 American Sociological Review] The Accumulation of (Dis)advantage</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/cheng2016/</link>
+      <link>http://localhost:1313/posts/cheng2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/cheng2016/</guid>
+      <guid>http://localhost:1313/posts/cheng2016/</guid>
       <description>Article &amp;ldquo;The Accumulation of (Dis)advantage: The Intersection of Gender and Race in the Long-term Wage Effect of Marriage.&amp;rdquo; Siwei Cheng. American Sociological Review. 2016.
 Links Article
 Abstract A sizable literature examines whether and why marriage affects men’s and women’s wages. This study advances current research in two ways. First, whereas most prior studies treat the effect of marriage as time-invariant, I examine how the wage effect of marriage unfolds over the life course.</description>
@@ -142,10 +141,10 @@ Abstract A sizable literature examines whether and why marriage affects men’s 
     
     <item>
       <title>[2015 PNAS] How to Borrow Information from Unlinked Data?</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/xiechengzhou2015/</link>
+      <link>http://localhost:1313/posts/xiechengzhou2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/xiechengzhou2015/</guid>
+      <guid>http://localhost:1313/posts/xiechengzhou2015/</guid>
       <description>Article &amp;ldquo;Assortative Mating without Assortative Preference.&amp;rdquo; Yu Xie, Siwei Cheng &amp;amp; Xiang Zhou Proceedings of the National Academy of Sciences 2015.
 Links Article
 Abstract One of the most important developments in the current era of social sciences is the growing availability and diversity of data, big and small. Social scientists increasingly combine information from multiple data sets in their research. While conducting statistical analyses with linked data is relatively straightforward, borrowing information across unlinked data can be much more challenging due to the absence of unit-to-unit linkages.</description>
@@ -153,10 +152,10 @@ Abstract One of the most important developments in the current era of social sci
     
     <item>
       <title>[2014 American Journal of Sociology] Life Course Trajectory Framework</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/cheng2014/</link>
+      <link>http://localhost:1313/posts/cheng2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/cheng2014/</guid>
+      <guid>http://localhost:1313/posts/cheng2014/</guid>
       <description>Article &amp;ldquo;A Life Course Trajectory Framework for Understanding the Intracohort Pattern of Wage Inequality.&amp;rdquo; Siwei Cheng American Journal of Sociology. 2014.
 Links Article
 Abstract Much research has been devoted to cross-sectional and intercohort patterns of wage inequality, but relatively little is known about the mechanisms for the intracohort pattern of wage inequality. To fill this intellectual gap, this article establishes a life course trajectory ðLCTÞ framework for understanding the intracohort pattern of wage inequality.</description>
@@ -164,10 +163,10 @@ Abstract Much research has been devoted to cross-sectional and intercohort patte
     
     <item>
       <title>[2013 PNAS] Interracial Friendship</title>
-      <link>http://localhost:1313/siweicheng.github.io/posts/chengxie2013/</link>
+      <link>http://localhost:1313/posts/chengxie2013/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/siweicheng.github.io/posts/chengxie2013/</guid>
+      <guid>http://localhost:1313/posts/chengxie2013/</guid>
       <description>Article &amp;ldquo;Structural Effect of Size on Interracial Friendship.&amp;rdquo; Siwei Cheng &amp;amp; Yu Xie Proceedings of the National Academy of Sciences 2013.
 Links Article
 Abstract Social contexts exert structural effects on individuals’ social relationships, including interracial friendships. In this study, we posit that, net of group composition, total context size has a distinct effect on interracial friendship. Under the assumptions of (i) maximization of preference in choosing a friend, (ii) multidimensionality of preference, and (iii) preference for same-race friends, we conducted analyses using microsimulation that yielded three main findings.</description>
