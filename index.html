@@ -72,6 +72,36 @@ line-height: 1.6;
 .intro-text a{
 font-size: 16px;
 }
+
+.section-flex{
+display:flex;
+flex-direction: row;
+align-items: stretch;
+gap: 30px;
+margin-bottom: 40px;
+}
+
+.section-flex .section-image{
+flex: 1;
+display:flex;
+}
+
+.section-flex .section-image img{
+width: 100%;
+height: 100%;
+object-fit: contain;
+border-radius: 10px;
+}
+
+.section-flex .section-text{
+flex: 2;
+}
+
+@media (max-width: 700px){
+.section-flex{
+flex-direction: column;
+}
+}
 </style>
 
 </head>
@@ -122,30 +152,63 @@ William T. Grant Scholar 2023-2028
 <img src="profile_pic.png" alt="Profile photo">
 </div>
 </div>
-                <h1>Bio</h1>
-                Siwei Cheng received her Ph.D. in Sociology and Public Policy (2015) and M.A. in Statistics (2012) from the University of Michigan, where she was also trained at the Population Studies Center. She received B.A. in Economics and Mathematical Statistics from Peking University (2009). Prior to joining the faculty of NYU, she was assistant professor of sociology at UCLA (2015-2016). 
-                
-                <br>
-                 <br>
+ <div class="section-flex">
 
+<div class="section-image">
+<img src="sketch_1.png" alt="Sketch 1">
+</div>
 
-                Cheng's research encompasses various areas of inequality, mobility, labor market, and quantitative methodology. Her work employs a broad array of methodological approaches, including causal inference, panel data methods, discrete choice models, network analysis, machine learning, and survey experiments. Cheng's work has been published in leading social science and general science journals, including the American Journal of Sociology, American Sociological Review, and the Proceedings of the National Academy of Sciences (PNAS).  
-	    
-	    <br>  <br>
-	    <h1>Current Research</h1>
-	    I am currently working on the following projects: <br> 
-	    (1) Analyzing the inter-connectedness of jobs, occupations, and skills.  <br> 
-	    (2) Building a large dataset of time-stamped, geo-tagged images to study social dynamics in public spaces. <br>
-	    (3) Combining human mobility data and Census/administrative data to study connections between individuals and communities. <br>
-	    (4) Studying inequality in the production of knowledge through two decades of digitized social science conference programs. <br>
-	    (5) Combining machine learning and causal inference to understand intra- and inter-generational mobility. <br>
- <br>
-	    See <a href="https://siwei-cheng.github.io/about/" typeof="ListItem">HERE</a> for details on active research projects. 
+<div class="section-text">
+<h1>Bio</h1>
+Siwei Cheng received her Ph.D. in Sociology and Public Policy (2015) and M.A. in Statistics (2012) from the University of Michigan, where she was also trained at the Population Studies Center. She received B.A. in Economics and Mathematical Statistics from Peking University (2009). Prior to joining the faculty of NYU, she was assistant professor of sociology at UCLA (2015-2016). 
 
-                <br> <br>
+<br><br>
+
+Cheng's research encompasses various areas of inequality, mobility, labor market, and quantitative methodology. Her work employs a broad array of methodological approaches, including causal inference, panel data methods, discrete choice models, network analysis, machine learning, and survey experiments. Cheng's work has been published in leading social science and general science journals, including the American Journal of Sociology, American Sociological Review, and the Proceedings of the National Academy of Sciences (PNAS).
+
+<br>
+<a href="https://www.dropbox.com/scl/fi/ldwbiqk9cvexnezffm9jy/CV_SiweiCheng.pdf?rlkey=ez8e3m553gtbw3pstrex3albj&dl=0" 
+style="font-weight: bold; color: blue;">
+Click here to view my vitae.
+</a>
+<br>
+
+</div>
+
+</div>
+
+	 <div class="section-flex">
+
+<div class="section-image">
+<img src="sketch_2.png" alt="Sketch 2">
+</div>
+
+<div class="section-text">
+<h1>Current Research</h1>
+I am currently working on the following projects: <br> 
+(1) Analyzing the inter-connectedness of jobs, occupations, and skills. <br> 
+(2) Building a large dataset of time-stamped, geo-tagged images to study social dynamics in public spaces. <br>
+(3) Combining human mobility data and Census/administrative data to study connections between individuals and communities. <br>
+(4) Studying inequality in the production of knowledge through two decades of digitized social science conference programs. <br>
+(5) Combining machine learning and causal inference to understand intra- and inter-generational mobility. <br>
+<br>
+See <a href="https://siwei-cheng.github.io/about/" typeof="ListItem">HERE</a> for details on active research projects.
+</div>
+
+</div>
+<div class="section-flex">
+
+<div class="section-image">
+<img src="sketch_3.png" alt="Sketch 3">
+</div>
+
+<div class="section-text">
 <h1>Fun Fact</h1> 
-I am a co-creator of the <a href="https://siwei-cheng.github.io/NYC_kindergarten_lottery/">NYC Kindergarten Admission Lottery Simulator</a>, a free web application with accompanying Python and R code. This tool simulates the probability of receiving an offer from a specific program based on the NYC DOE's hexadecimal random number and historical school admission data.                 <br> <br>
-   
+I am a co-creator of the <a href="https://siwei-cheng.github.io/NYC_kindergarten_lottery/">NYC Kindergarten Admission Lottery Simulator</a>, a free web application with accompanying Python and R code. This tool simulates the probability of receiving an offer from a specific program based on the NYC DOE's hexadecimal random number and historical school admission data.
+</div>
+
+</div>
+
 </div>
 
     </div>
