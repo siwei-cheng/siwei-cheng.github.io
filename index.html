@@ -28,6 +28,52 @@
 <meta name="twitter:title" content="Siwei Cheng"/>
 <meta name="twitter:description" content=""/>
 
+
+<style>
+.intro{
+display:flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: flex-start;
+gap: 30px;
+margin-bottom: 18px;
+}
+
+.intro .intro-text{
+flex: 1;
+min-width: 0;
+}
+
+.intro .intro-photo img{
+width: 280px;
+height: auto;
+display:block;
+border-radius: 10px;
+}
+
+@media (max-width: 700px){
+.intro{ 
+flex-direction: column; 
+}
+.intro .intro-photo img{ 
+width: 200px; 
+}
+}
+.intro-text h1{
+font-size: 22px; 
+margin-bottom: 12px;
+}
+
+.intro-text p{
+font-size: 16px; 
+line-height: 1.6;
+}
+
+.intro-text a{
+font-size: 16px;
+}
+</style>
+
 </head>
 <body class="terminal">
     <div class="container">
@@ -43,7 +89,8 @@
                 
                 <li><a href="https://siwei-cheng.github.io/about/" typeof="ListItem">Active projects</a></li>
                 
-                <li><a href="https://siwei-cheng.github.io/posts/" typeof="ListItem">Publications</a></li>
+				<!-- <li><a href="https://siwei-cheng.github.io/posts/" typeof="ListItem">Publications</a></li> -->
+	
                 
                 <li><a href="https://siwei-cheng.github.io/teaching/" typeof="ListItem">Teaching/advising</a></li>
                 
@@ -55,6 +102,8 @@
     <div class="container animated zoomIn fast" >
         
 
+<div class="intro">
+<div class="intro-text">
 <h1>Siwei Cheng | 程思薇 </h1>
 <p>
 Associate Professor of Sociology, New York University
@@ -65,10 +114,14 @@ William T. Grant Scholar 2023-2028
 <br>
 <a href="https://www.dropbox.com/scl/fi/ldwbiqk9cvexnezffm9jy/CV_SiweiCheng.pdf?rlkey=ez8e3m553gtbw3pstrex3albj&dl=0">View Curriculum Vitae</a>
 <br>
-<a href = "mailto: siwei.cheng@nyu.edu">Email me</a> 
-	
+<a href="mailto:siwei.cheng@nyu.edu">Email me</a>
 </p>
-<img src="profile_forweb.png" width="100"> 
+</div>
+
+<div class="intro-photo">
+<img src="profile_pic.png" alt="Profile photo">
+</div>
+</div>
                 <h1>Bio</h1>
                 Siwei Cheng received her Ph.D. in Sociology and Public Policy (2015) and M.A. in Statistics (2012) from the University of Michigan, where she was also trained at the Population Studies Center. She received B.A. in Economics and Mathematical Statistics from Peking University (2009). Prior to joining the faculty of NYU, she was assistant professor of sociology at UCLA (2015-2016). 
                 
