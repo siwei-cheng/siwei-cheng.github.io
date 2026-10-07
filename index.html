@@ -1,231 +1,437 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.110.0">
+    <meta name="generator" content="Hugo 0.110.0">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Siwei Cheng/</title>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
     <meta name="googlebot" content="index,follow,snippet,archive">
+
     <link rel="stylesheet" href="https://siwei-cheng.github.io/hugo-theme-console/css/terminal-0.7.2.min.css">
     <link rel="stylesheet" href="https://siwei-cheng.github.io/hugo-theme-console/css/animate-4.1.1.min.css">
     <link rel="stylesheet" href="https://siwei-cheng.github.io/hugo-theme-console/css/console.css">
-    
-      <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
-       
-      <link href="https://siwei-cheng.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Siwei Cheng" />
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href="https://siwei-cheng.github.io/index.xml"
+          rel="alternate"
+          type="application/rss+xml"
+          title="Siwei Cheng" />
+
     <meta property="og:title" content="Siwei Cheng" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://siwei-cheng.github.io/" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://siwei-cheng.github.io/" />
 
-
-<meta name="twitter:title" content="Siwei Cheng"/>
-<meta name="twitter:description" content=""/>
-
+    <meta name="twitter:title" content="Siwei Cheng"/>
+    <meta name="twitter:description" content=""/>
 
 <style>
-.intro{
-display:flex;
-flex-direction: row-reverse;
-justify-content: space-between;
-align-items: flex-start;
-gap: 30px;
-margin-bottom: 18px;
+
+/* ========================================
+   Site accent color
+   ======================================== */
+
+:root {
+    --accent: #B45309;
+    --accent-hover: #E77500;
 }
 
-.intro .intro-text{
-flex: 1;
-min-width: 0;
+a,
+a:visited {
+    color: var(--accent) !important;
 }
 
-.intro .intro-photo img{
-width: 280px;
-height: auto;
-display:block;
-border-radius: 10px;
+a:hover {
+    color: var(--accent-hover) !important;
 }
 
-@media (max-width: 700px){
-.intro{ 
-flex-direction: column; 
-}
-.intro .intro-photo img{ 
-width: 200px; 
-}
-}
-.intro-text h1{
-font-size: 22px; 
-margin-bottom: 12px;
+.accent-text {
+    color: var(--accent);
 }
 
-.intro-text p{
-font-size: 16px; 
-line-height: 1.6;
+
+/* ========================================
+   Intro section
+   ======================================== */
+
+.intro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 18px;
 }
 
-.intro-text a{
-font-size: 16px;
+.intro .intro-text {
+    flex: 1;
+    min-width: 0;
 }
 
-.section-flex{
-display:flex;
-flex-direction: row;
-align-items: stretch;
-gap: 30px;
-margin-bottom: 40px;
+.intro .intro-photo img {
+    width: 280px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
 }
 
-.section-flex .section-image{
-flex: 1;
-display:flex;
+.intro-text h1 {
+    font-size: 22px;
+    margin-bottom: 12px;
 }
 
-.section-flex .section-image img{
-width: 100%;
-height: 100%;
-object-fit: contain;
-border-radius: 10px;
+.intro-text p {
+    font-size: 16px;
+    line-height: 1.6;
 }
 
-.section-flex .section-text{
-flex: 2;
+.intro-text a {
+    font-size: 16px;
 }
 
-@media (max-width: 700px){
-.section-flex{
-flex-direction: column;
+
+/* ========================================
+   Research / Bio sections
+   ======================================== */
+
+.section-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 30px;
+    margin-bottom: 40px;
 }
+
+.section-flex .section-image {
+    flex: 1;
+    display: flex;
 }
+
+.section-flex .section-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.section-flex .section-text {
+    flex: 2;
+}
+
+
+/* ========================================
+   Mobile layout
+   ======================================== */
+
+@media (max-width: 700px) {
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro .intro-photo img {
+        width: 200px;
+    }
+
+    .section-flex {
+        flex-direction: column;
+    }
+}
+
 </style>
 
 </head>
+
+
 <body class="terminal">
+
     <div class="container">
+
         <div class="terminal-nav">
-          <header class="terminal-logo">
-            <div class="logo terminal-prompt">
-              
-              
-              <a href="https://siwei-cheng.github.io/" class="no-style site-name">Siwei Cheng</a>:~# 
-              </div></header>
-          <nav class="terminal-menu">
-            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
-                
-                <li><a href="https://siwei-cheng.github.io/about/" typeof="ListItem">Active projects</a></li>
-                
-				<!-- <li><a href="https://siwei-cheng.github.io/posts/" typeof="ListItem">Publications</a></li> -->
-	
-                
-                <li><a href="https://siwei-cheng.github.io/teaching/" typeof="ListItem">Teaching/advising</a></li>
-                
-            </ul>
-          </nav>
+
+            <header class="terminal-logo">
+
+                <div class="logo terminal-prompt">
+
+                    <a href="https://siwei-cheng.github.io/"
+                       class="no-style site-name">
+                        Siwei Cheng
+                    </a>:~#
+
+                </div>
+
+            </header>
+
+            <nav class="terminal-menu">
+
+                <ul vocab="https://schema.org/"
+                    typeof="BreadcrumbList">
+
+                    <li>
+                        <a href="https://siwei-cheng.github.io/about/"
+                           typeof="ListItem">
+                            Active projects
+                        </a>
+                    </li>
+
+                    <!--
+                    <li>
+                        <a href="https://siwei-cheng.github.io/posts/"
+                           typeof="ListItem">
+                            Publications
+                        </a>
+                    </li>
+                    -->
+
+                    <li>
+                        <a href="https://siwei-cheng.github.io/teaching/"
+                           typeof="ListItem">
+                            Teaching/advising
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
         </div>
-    </div>
-
-    <div class="container animated zoomIn fast" >
-        
-
-<div class="intro">
-<div class="intro-text">
-<h1>Siwei Cheng | 程思薇 </h1>
-<p>
-Associate Professor of Sociology 
-<br>
-	Princeton University
-<br>
-William T. Grant Scholar 2023-2028
-<br> <br>
-<a href="/about" 
-   style="color: #5dade2 !important; font-weight: bold;">
-View Active Research Projects
-</a>
-	<br>
-<a href="https://www.dropbox.com/scl/fi/ldwbiqk9cvexnezffm9jy/CV_SiweiCheng.pdf?rlkey=ez8e3m553gtbw3pstrex3albj&dl=0">View Curriculum Vitae</a>
-<br>
-<a href="mailto:siwei.cheng@princeton.edu">Email me</a>
-</p>
-
-<br>
-<br>
-<br>
-	
-<span style="color: #5dade2; font-style: italic;">
-
-All drawings on this site are human-made — by me, not by silicon. They’re not fancy, but no GPUs were harmed in the making of them.
-</span>
-
-
-<br>
-</div>
-
-<div class="intro-photo">
-<img src="profile_pic.png" alt="Profile photo">
-</div>
-</div>
- <div class="section-flex">
-
-<div class="section-image">
-<img src="sketch_1.png" alt="Sketch 1">
-</div>
-
-<div class="section-text">
-<h1>Bio</h1>
-Siwei Cheng received her Ph.D. in Sociology and Public Policy (2015) and M.A. in Statistics (2012) from the University of Michigan, where she was also trained at the Population Studies Center. She received her B.A. in Economics and Mathematical Statistics from Peking University in 2009. Prior to joining the faculty at Princeton, she was a faculty member at New York University from 2016 to 2026, most recently as an Associate Professor of Sociology. She previously served as an Assistant Professor of Sociology at the University of California, Los Angeles (2015–2016).
-<br><br>
-
-Cheng's research encompasses various areas of inequality, mobility, labor market, and quantitative methodology. Her work employs a broad array of methodological approaches, including causal inference, panel data methods, discrete choice models, network analysis, machine learning, and survey experiments. Cheng's work has been published in leading social science and general science journals, including the American Journal of Sociology, American Sociological Review, and the Proceedings of the National Academy of Sciences (PNAS). She was awarded the 2025 <i>William Julius Wilson Early Career Award</i> by the Inequality, Poverty, and Mobility Section of the American Sociological Association.
-<br>
-<a href="https://www.dropbox.com/scl/fi/ldwbiqk9cvexnezffm9jy/CV_SiweiCheng.pdf?rlkey=ez8e3m553gtbw3pstrex3albj&dl=0" 
-style="font-weight: bold; color: blue;">
-Click here to view my vitae.
-</a>
-<br>
-
-</div>
-
-</div>
-
-	 <div class="section-flex">
-
-<div class="section-image">
-<img src="sketch_2.png" alt="Sketch 2">
-</div>
-
-<div class="section-text">
-<h1>Current Research</h1>
-I am currently working on the following projects: <br> 
-(1) Analyzing the inter-connectedness of jobs, occupations, and skills. <br> 
-(2) Building a large dataset of time-stamped, geo-tagged images to study social dynamics in public spaces. <br>
-(3) Combining human mobility data and Census/administrative data to study connections between individuals and communities. <br>
-(4) Studying inequality in the production of knowledge through two decades of digitized social science conference programs. <br>
-(5) Combining machine learning and causal inference to understand intra- and inter-generational mobility. <br>
-<br>
-See <a href="https://siwei-cheng.github.io/about/" typeof="ListItem">HERE</a> for details on active research projects.
-</div>
-
-</div>
-<div class="section-flex">
-
-<div class="section-image">
-<img src="sketch_3.png" alt="Sketch 3">
-</div>
-
-<div class="section-text">
-<h1>Fun Fact</h1> 
-I am a co-creator of the <a href="https://siwei-cheng.github.io/NYC_kindergarten_lottery/">NYC Kindergarten Admission Lottery Simulator</a>, a free web application with accompanying Python and R code. This tool simulates the probability of receiving an offer from a specific program based on the NYC DOE's hexadecimal random number and historical school admission data.
-</div>
-
-</div>
-
-</div>
 
     </div>
-  </body>
+
+
+    <div class="container animated zoomIn fast">
+
+
+        <!-- ========================================
+             INTRO
+             ======================================== -->
+
+        <div class="intro">
+
+            <div class="intro-text">
+
+                <h1>Siwei Cheng | 程思薇</h1>
+
+                <p>
+
+                    Associate Professor of Sociology
+                    <br>
+
+                    Princeton University
+                    <br>
+
+                    William T. Grant Scholar 2023–2028
+
+                    <br><br>
+
+                    <a href="/about"
+                       style="font-weight: bold;">
+                        View Active Research Projects
+                    </a>
+
+                    <br>
+
+                    <a href="https://www.dropbox.com/scl/fi/ldwbiqk9cvexnezffm9jy/CV_SiweiCheng.pdf?rlkey=ez8e3m553gtbw3pstrex3albj&dl=0">
+                        View Curriculum Vitae
+                    </a>
+
+                    <br>
+
+                    <a href="mailto:siwei.cheng@princeton.edu">
+                        Email me
+                    </a>
+
+                </p>
+
+                <br>
+                <br>
+                <br>
+
+                <span class="accent-text"
+                      style="font-style: italic;">
+                    All drawings on this site are human-made — by me, not by silicon.
+                    They’re not fancy, but no GPUs were harmed in the making of them.
+                </span>
+
+                <br>
+
+            </div>
+
+
+            <div class="intro-photo">
+
+                <img src="profile_pic.png"
+                     alt="Profile photo">
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ========================================
+             BIO
+             ======================================== -->
+
+        <div class="section-flex">
+
+            <div class="section-image">
+
+                <img src="sketch_1.png"
+                     alt="Sketch 1">
+
+            </div>
+
+
+            <div class="section-text">
+
+                <h1>Bio</h1>
+
+                Siwei Cheng received her Ph.D. in Sociology and Public Policy
+                (2015) and M.A. in Statistics (2012) from the University of
+                Michigan, where she was also trained at the Population Studies
+                Center. She received her B.A. in Economics and Mathematical
+                Statistics from Peking University in 2009. Prior to joining the
+                faculty at Princeton, she was a faculty member at New York
+                University from 2016 to 2026, most recently as an Associate
+                Professor of Sociology. She previously served as an Assistant
+                Professor of Sociology at the University of California,
+                Los Angeles (2015–2016).
+
+                <br><br>
+
+                Cheng's research encompasses various areas of inequality,
+                mobility, labor market, and quantitative methodology. Her work
+                employs a broad array of methodological approaches, including
+                causal inference, panel data methods, discrete choice models,
+                network analysis, machine learning, and survey experiments.
+                Cheng's work has been published in leading social science and
+                general science journals, including the
+                <i>American Journal of Sociology</i>,
+                <i>American Sociological Review</i>, and the
+                <i>Proceedings of the National Academy of Sciences (PNAS)</i>.
+                She was awarded the 2025
+                <i>William Julius Wilson Early Career Award</i>
+                by the Inequality, Poverty, and Mobility Section of the
+                American Sociological Association.
+
+                <br>
+
+                <a href="https://www.dropbox.com/scl/fi/ldwbiqk9cvexnezffm9jy/CV_SiweiCheng.pdf?rlkey=ez8e3m553gtbw3pstrex3albj&dl=0"
+                   style="font-weight: bold;">
+                    Click here to view my vitae.
+                </a>
+
+                <br>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ========================================
+             CURRENT RESEARCH
+             ======================================== -->
+
+        <div class="section-flex">
+
+            <div class="section-image">
+
+                <img src="sketch_2.png"
+                     alt="Sketch 2">
+
+            </div>
+
+
+            <div class="section-text">
+
+                <h1>Current Research</h1>
+
+                I am currently working on the following projects:
+
+                <br>
+
+                (1) Analyzing the inter-connectedness of jobs, occupations,
+                and skills.
+
+                <br>
+
+                (2) Building a large dataset of time-stamped, geo-tagged images
+                to study social dynamics in public spaces.
+
+                <br>
+
+                (3) Combining human mobility data and Census/administrative
+                data to study connections between individuals and communities.
+
+                <br>
+
+                (4) Studying inequality in the production of knowledge through
+                two decades of digitized social science conference programs.
+
+                <br>
+
+                (5) Combining machine learning and causal inference to
+                understand intra- and inter-generational mobility.
+
+                <br><br>
+
+                See
+                <a href="https://siwei-cheng.github.io/about/"
+                   typeof="ListItem">
+                    HERE
+                </a>
+                for details on active research projects.
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ========================================
+             FUN FACT
+             ======================================== -->
+
+        <div class="section-flex">
+
+            <div class="section-image">
+
+                <img src="sketch_3.png"
+                     alt="Sketch 3">
+
+            </div>
+
+
+            <div class="section-text">
+
+                <h1>Fun Fact</h1>
+
+                I am a co-creator of the
+
+                <a href="https://siwei-cheng.github.io/NYC_kindergarten_lottery/">
+                    NYC Kindergarten Admission Lottery Simulator
+                </a>,
+
+                a free web application with accompanying Python and R code.
+                This tool simulates the probability of receiving an offer from
+                a specific program based on the NYC DOE's hexadecimal random
+                number and historical school admission data.
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
 </html>
